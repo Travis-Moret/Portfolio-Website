@@ -1,0 +1,75 @@
+.carousel {
+   margin: auto;
+   width:80%;
+   height:80%;
+ }
+
+.topnav {
+   text-align: center;
+}
+
+.topnav ul {
+   border: 1px solid #e7e7e7;
+   background-color: #4cbef3;
+   padding-bottom: 10px;
+   padding-top: 10px;
+ }
+ 
+.topnav a {
+   color: rgb(12, 12, 12);
+   font-weight:700;
+   padding: 10px;
+ }
+
+.topnav.active {
+  background-color: rgb(66, 135, 226);
+ }
+
+h1 {
+   font-family:"Comic Sans MS", cursive, sans-serif;
+   text-align: center;
+}
+
+.content {
+   margin:auto; 
+   max-width: 500px;
+   text-align: center;
+}
+
+.content li{
+   text-align: left;
+}
+
+form {
+   background-color: #e7e7e7;
+   margin: auto; 
+   width: 70%; 
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-bottom: 50px;
+   padding-top: 30px;
+}
+/*Scrollbox CSS adapted from https://codepen.io/Bikossor/pen/mMzWYb*/
+.scrollbox {
+   overflow-x: scroll;
+   overflow-y: hidden;
+   height: 350px;
+   white-space: nowrap;
+   padding: 2rem;
+   width: 80%; 
+   margin-left:10%;
+ }
+ 
+ .scrollbox-item {
+   display: inline-block;
+   position: relative;
+   width: 360px;
+   height: 100%;
+   margin: 0 2rem 0 0;
+   padding: 1rem;
+   box-sizing: border-box;
+   vertical-align: top;
+   white-space: normal;
+   text-align: justify;
+   overflow: hidden;
+ }
