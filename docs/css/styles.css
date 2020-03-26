@@ -65,8 +65,9 @@ input[type=text],input[type=email],textarea {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other*/
 @media screen and (max-width: 800px) {
-   input[type=text],input[type=email],textarea {
+   label,input[type=text],input[type=email],textarea {
      width: 200px;
+     text-align: center;
    }
 }
 
