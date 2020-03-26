@@ -39,6 +39,10 @@ h1 {
    text-align: left;
 }
 
+.container {
+   width: 100%; 
+}
+
 .column {
    width: 100%; 
 }
@@ -46,7 +50,7 @@ h1 {
 form {
    background-color: #e7e7e7;
    margin: auto; 
-   width: 70%; 
+   width: 90%; 
    padding-left: 50px;
    padding-right: 50px;
    padding-bottom: 50px;
@@ -54,13 +58,17 @@ form {
 
 }
 
-input[type=text], input[type=email], textarea {
-   margin: auto; 
-   width:100%;
-
+input[type=text],input[type=email],textarea {
+  width: 500px;
+  resize: vertical;
 }
 
-
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+   input[type=text],input[type=email],textarea {
+     width: 300px;
+   }
+}
 
 /*Scrollbox CSS adapted from https://codepen.io/Bikossor/pen/mMzWYb*/
 .scrollbox {
