@@ -53,7 +53,7 @@ form {
 .scrollbox {
    overflow-x: scroll;
    overflow-y: hidden;
-   height: 350px;
+   height: 400px;
    white-space: nowrap;
    padding: 2rem;
    width: 80%; 
