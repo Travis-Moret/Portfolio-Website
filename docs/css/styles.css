@@ -3,8 +3,8 @@
    width:80%;
 }
 
-textarea {
-   width:80%;
+input[type=text], input[type=email], textarea {
+   width:100%;
 }
 
 .topnav {
