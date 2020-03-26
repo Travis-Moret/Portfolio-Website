@@ -39,6 +39,10 @@ h1 {
    text-align: left;
 }
 
+.column {
+   width: 100%; 
+}
+
 form {
    background-color: #e7e7e7;
    margin: auto; 
@@ -56,9 +60,7 @@ input[type=text], input[type=email], textarea {
 
 }
 
-form.fieldset {
-   width: 80%; 
-}
+
 
 /*Scrollbox CSS adapted from https://codepen.io/Bikossor/pen/mMzWYb*/
 .scrollbox {
