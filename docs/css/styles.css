@@ -2,7 +2,7 @@
    margin: auto;
    width:80%;
    height:80%;
- }
+}
 
 .topnav {
    text-align: center;
@@ -13,13 +13,13 @@
    background-color: #4cbef3;
    padding-bottom: 10px;
    padding-top: 10px;
- }
+}
  
 .topnav a {
    color: rgb(12, 12, 12);
    font-weight:700;
    padding: 10px;
- }
+}
 
 .topnav.active {
   background-color: rgb(66, 135, 226);
@@ -48,7 +48,9 @@ form {
    padding-right: 50px;
    padding-bottom: 50px;
    padding-top: 30px;
+
 }
+
 /*Scrollbox CSS adapted from https://codepen.io/Bikossor/pen/mMzWYb*/
 .scrollbox {
    overflow-x: scroll;
