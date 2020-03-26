@@ -3,10 +3,6 @@
    width:80%;
 }
 
-input[type=text], input[type=email], textarea {
-   width:100%;
-}
-
 .topnav {
    text-align: center;
 }
@@ -52,6 +48,11 @@ form {
    padding-bottom: 50px;
    padding-top: 30px;
 
+}
+
+input[type=text], input[type=email], textarea {
+   margin: auto; 
+   width:100%;
 }
 
 /*Scrollbox CSS adapted from https://codepen.io/Bikossor/pen/mMzWYb*/
