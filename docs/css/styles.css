@@ -77,7 +77,6 @@ input[type=text],input[type=email],textarea {
    overflow-y: hidden;
    height: 400px;
    white-space: nowrap;
-   padding: 2rem;
    width: 80%; 
    margin-left:10%;
  }
